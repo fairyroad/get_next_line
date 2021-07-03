@@ -9,3 +9,7 @@
     get next line 구현하기
 
     -->EOF를 만날때까지 file descriptor에서 한줄씩 출력하기
+
+int get_next_line(int fd, char **line);
+
+
